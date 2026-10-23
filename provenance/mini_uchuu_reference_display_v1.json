@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-10-23T19:50:14.477327+00:00",
+  "checks_pass": true,
+  "data_file": "results\\mini_uchuu_reference_display_v1.npz",
+  "data_sha256": "cada91d6420b7e344caf43216942e1f6e6c565e33490dbd63d9db28f963642f7",
+  "input_sha256": {
+    "results\\mini_particle_density_v1.json": "88fceafb4fa4fc2f02cf9805363f7bf5056d1b79a916226ec8490d9119e0d465",
+    "results\\mini_particle_density_checks_v1.json": "52ad2d54eb1a1f133c0c43c36f64d747f15929e66ee959b78e1e75f6cf0f6913",
+    "results\\native_halo_velocity_k09_v2\\report.json": "950f92919e30008c2ee75367589e205eea289bc9cf079810332438ece51e707f",
+    "results\\native_halo_velocity_k09_checks_v2.json": "b07ebbe0547ff3fd8e0bdc28ff2727aea386ed0c6fcf8a6bb0d60e50279f5686"
+  },
+  "conventions": {
+    "frame": "Mini-Uchuu simulation Cartesian axes; no Galactic transformation",
+    "mesh": "64 periodic CIC nodes, array axes x,y,z; vector component first",
+    "origin_mpc": [
+      -295.24653085326247,
+      -295.24653085326247,
+      -295.24653085326247
+    ],
+    "spacing_mpc": 9.226454089164452,
+    "box_mpc": 590.4930617065249,
+    "coordinate_unit": "comoving Mpc",
+    "observer_origin": "Arbitrary simulation-box centre; not the Milky Way or Local Group. Native coordinates translated by -L/2 for display only.",
+    "periodic": true,
+    "epoch_redshift": 0.00011320203367848336,
+    "particle_scale_factor_header": 0.9998868107795715,
+    "halo_scale_factor_catalogue": 0.99989,
+    "physical_time_evolution": false
+  },
+  "density_definition": "Probability-sampled collisionless particle contrast; Gaussian R=40 comoving Mpc",
+  "velocity_definition": "Primary cutoff-9 curl-free least-squares fit to 32768 native host-halo velocities; not exact particle velocity",
+  "minimum_comoving_velocity_wavelength_mpc": 196.83102056884164,
+  "sampling_half_difference_is_posterior_sd": false,
+  "scientific_acceptance": false
+}

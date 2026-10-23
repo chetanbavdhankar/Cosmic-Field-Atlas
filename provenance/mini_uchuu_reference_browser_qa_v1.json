@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-10-23T19:56:16.577927+00:00",
+  "checks_pass": true,
+  "scene_id": "updates-20261023:mini-uchuu-particle-halo-reference:density",
+  "scene_revision": "5cadc335dcba6c0456f53bd18ceb67aca316dde547edb30de8ccb644ad3d7511",
+  "image": "results\\field_exports\\34c4749344aab8e4bb4a5b7c7765137265b0a5cbfa81a97aeddf155adcb07216.png",
+  "image_sha256": "34c4749344aab8e4bb4a5b7c7765137265b0a5cbfa81a97aeddf155adcb07216",
+  "sidecar_sha256": "6ac927454bdfe4e331077ccba32cc9e734924695e40a5f84f45367c10ed580da",
+  "direct_browser_observation": true,
+  "backend_connected": true,
+  "native_simulation_axes_visible": true,
+  "Galactic_recenter_disabled": true,
+  "posterior_spread_controls_disabled": true,
+  "full_cube_radius_520_supported": true,
+  "full_cube_surface_triangles": 80416,
+  "display_velocity_speed_range_kms": [
+    6,
+    630
+  ],
+  "image_export_exercised": true,
+  "browser_error_logs": [],
+  "viewer_js_sha256": "b9bf1853f8601a7c9e22ab7d6b33175dd6d776c9514838d677905a172c780e9d",
+  "registry_products": 608,
+  "scientific_acceptance": false
+}

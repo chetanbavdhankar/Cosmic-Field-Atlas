@@ -1,0 +1,15 @@
+{
+  "static_products": 7,
+  "scene_dimensions_pass": true,
+  "python_syntax_pass": true,
+  "javascript_syntax_pass": true,
+  "browser_verified": [
+    "Mini-Uchuu loaded; full extent and PNG export",
+    "2M++ loaded; Galactic origin and units",
+    "PM z0 loaded; slider switched to z1"
+  ],
+  "browser_console_errors": [],
+  "requires_backend": false,
+  "scientific_acceptance": false,
+  "scope": "Browser checks do not establish scientific validity; no new inference performed"
+}

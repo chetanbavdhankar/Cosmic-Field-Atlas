@@ -1,0 +1,144 @@
+[
+  {
+    "id": "published-2mpp-v1:luminosity_weighted_tracer_density_contrast",
+    "label": "2M++ - published observation-derived reference",
+    "kind": "reference",
+    "revision": "5e2eb0c43159a6333fa8935f6ffc488f527439097d9e3928df379a9593c2901e",
+    "file": "data/scene-00.json",
+    "shape": [
+      65,
+      65,
+      65
+    ],
+    "density_definition": "dimensionless delta_g*",
+    "uncertainty": "Downloaded best-fit reference arrays provide no voxel posterior uncertainty; none is invented. Source paper parameter errors are not substituted for field uncertainties.",
+    "frame": "Galactic Cartesian comoving axes; velocities in CMB frame",
+    "time_point": null
+  },
+  {
+    "id": "updates-20261022:local-pm:seed2026110400:epoch0:density",
+    "label": "Approximate PM evolution \u00b7 z=9 \u00b7 a=0.1 \u00b7 R20",
+    "kind": "approximate-simulation",
+    "revision": "f29ac85b7a9e38e79aaa5b0291776e4e7795599a91513becb3ab6afc2e9fbcc6",
+    "file": "data/scene-01.json",
+    "shape": [
+      64,
+      64,
+      64
+    ],
+    "density_definition": "dimensionless simulated matter density contrast, Gaussian R20 Mpc",
+    "uncertainty": "One approximate simulation phase. Numerical time/force screen passed at R20; no published N-body comparison, empirical accuracy or posterior uncertainty.",
+    "frame": "Native Cartesian simulation axes, comoving Mpc; peculiar velocity km/s",
+    "time_point": {
+      "sequence_id": "local-pm-seed2026110400-v1",
+      "epoch_index": 0,
+      "scale_factor": 0.1,
+      "redshift": 9.0,
+      "interpretation": "Discrete snapshots of the same simulated particle system; no temporal interpolation or observed time evolution"
+    }
+  },
+  {
+    "id": "updates-20261022:local-pm:seed2026110400:epoch1:density",
+    "label": "Approximate PM evolution \u00b7 z=4 \u00b7 a=0.2 \u00b7 R20",
+    "kind": "approximate-simulation",
+    "revision": "cb9613f3ac2ec7e00a7e48e4746a136683cca4ece97534a8796135ef0711670c",
+    "file": "data/scene-02.json",
+    "shape": [
+      64,
+      64,
+      64
+    ],
+    "density_definition": "dimensionless simulated matter density contrast, Gaussian R20 Mpc",
+    "uncertainty": "One approximate simulation phase. Numerical time/force screen passed at R20; no published N-body comparison, empirical accuracy or posterior uncertainty.",
+    "frame": "Native Cartesian simulation axes, comoving Mpc; peculiar velocity km/s",
+    "time_point": {
+      "sequence_id": "local-pm-seed2026110400-v1",
+      "epoch_index": 1,
+      "scale_factor": 0.2,
+      "redshift": 4.0,
+      "interpretation": "Discrete snapshots of the same simulated particle system; no temporal interpolation or observed time evolution"
+    }
+  },
+  {
+    "id": "updates-20261022:local-pm:seed2026110400:epoch2:density",
+    "label": "Approximate PM evolution \u00b7 z=2 \u00b7 a=0.333333 \u00b7 R20",
+    "kind": "approximate-simulation",
+    "revision": "2f41f05a074a9cb86c6b9500ceb8e2118fd6af60f82a838fc2500b20fbc49640",
+    "file": "data/scene-03.json",
+    "shape": [
+      64,
+      64,
+      64
+    ],
+    "density_definition": "dimensionless simulated matter density contrast, Gaussian R20 Mpc",
+    "uncertainty": "One approximate simulation phase. Numerical time/force screen passed at R20; no published N-body comparison, empirical accuracy or posterior uncertainty.",
+    "frame": "Native Cartesian simulation axes, comoving Mpc; peculiar velocity km/s",
+    "time_point": {
+      "sequence_id": "local-pm-seed2026110400-v1",
+      "epoch_index": 2,
+      "scale_factor": 0.3333333333333333,
+      "redshift": 2.0,
+      "interpretation": "Discrete snapshots of the same simulated particle system; no temporal interpolation or observed time evolution"
+    }
+  },
+  {
+    "id": "updates-20261022:local-pm:seed2026110400:epoch3:density",
+    "label": "Approximate PM evolution \u00b7 z=1 \u00b7 a=0.5 \u00b7 R20",
+    "kind": "approximate-simulation",
+    "revision": "440e03c1cac05610ee75e0f31939692f3766483a7de00a5f04ca856a0b5f3414",
+    "file": "data/scene-04.json",
+    "shape": [
+      64,
+      64,
+      64
+    ],
+    "density_definition": "dimensionless simulated matter density contrast, Gaussian R20 Mpc",
+    "uncertainty": "One approximate simulation phase. Numerical time/force screen passed at R20; no published N-body comparison, empirical accuracy or posterior uncertainty.",
+    "frame": "Native Cartesian simulation axes, comoving Mpc; peculiar velocity km/s",
+    "time_point": {
+      "sequence_id": "local-pm-seed2026110400-v1",
+      "epoch_index": 3,
+      "scale_factor": 0.5,
+      "redshift": 1.0,
+      "interpretation": "Discrete snapshots of the same simulated particle system; no temporal interpolation or observed time evolution"
+    }
+  },
+  {
+    "id": "updates-20261022:local-pm:seed2026110400:epoch4:density",
+    "label": "Approximate PM evolution \u00b7 z=0 \u00b7 a=1 \u00b7 R20",
+    "kind": "approximate-simulation",
+    "revision": "4ff1cd8e4daa5366c402fb43b097eb8468551a1b77f9591dad0b08443ca791f6",
+    "file": "data/scene-05.json",
+    "shape": [
+      64,
+      64,
+      64
+    ],
+    "density_definition": "dimensionless simulated matter density contrast, Gaussian R20 Mpc",
+    "uncertainty": "One approximate simulation phase. Numerical time/force screen passed at R20; no published N-body comparison, empirical accuracy or posterior uncertainty.",
+    "frame": "Native Cartesian simulation axes, comoving Mpc; peculiar velocity km/s",
+    "time_point": {
+      "sequence_id": "local-pm-seed2026110400-v1",
+      "epoch_index": 4,
+      "scale_factor": 1.0,
+      "redshift": 0.0,
+      "interpretation": "Discrete snapshots of the same simulated particle system; no temporal interpolation or observed time evolution"
+    }
+  },
+  {
+    "id": "updates-20261023:mini-uchuu-particle-halo-reference:density",
+    "label": "Mini-Uchuu \u00b7 sampled density + coarse halo-flow fit",
+    "kind": "simulation-reference",
+    "revision": "5cadc335dcba6c0456f53bd18ceb67aca316dde547edb30de8ccb644ad3d7511",
+    "file": "data/scene-06.json",
+    "shape": [
+      64,
+      64,
+      64
+    ],
+    "density_definition": "Particle-sampled contrast delta (Gaussian R=40 comoving Mpc)",
+    "uncertainty": "Particle density is estimated from two fixed probability samples, with a passed prespecified R40 disagreement screen; two draws are not calibrated confidence intervals. Full particle-file MD5s were not verified. Overlaid velocity is a coarse host-halo fit, not true particle flow or an observed-Universe reconstruction; primary held vector RMS438.441 km/s. Half-draw difference is not posterior SD.",
+    "frame": "Mini-Uchuu simulation Cartesian axes; no Galactic transformation",
+    "time_point": null
+  }
+]

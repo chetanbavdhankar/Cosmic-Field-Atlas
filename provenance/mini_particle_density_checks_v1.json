@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-23T19:48:45.594960+00:00",
+  "checks_pass": true,
+  "report_sha256": "88fceafb4fa4fc2f02cf9805363f7bf5056d1b79a916226ec8490d9119e0d465",
+  "verifier_sha256": "8dedd5923c64ad695935475b5da7f467467c66ab596a5b40548f51e777c4a7e3",
+  "sampled_rows_replayed": 13107200,
+  "all_800_double_byte_retrievals_replayed": true,
+  "maximum_relative_count_difference": 5.5556373951173274e-15,
+  "maximum_field_difference": 1.887379141862766e-15,
+  "primary_disagreement_screen_pass": true,
+  "density_truth_available": false,
+  "scientific_acceptance": false
+}
